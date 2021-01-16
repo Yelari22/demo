@@ -14,6 +14,7 @@
 		7E1220AF258D04A300DC23B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E1220AE258D04A300DC23B3 /* Assets.xcassets */; };
 		7E1220B2258D04A300DC23B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E1220B0258D04A300DC23B3 /* LaunchScreen.storyboard */; };
 		7E1220BA258D055100DC23B3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E1220B9258D055100DC23B3 /* GoogleService-Info.plist */; };
+		7E720BC125B0C69D00C487B5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E720BC025B0C69D00C487B5 /* DetailViewController.swift */; };
 		E78C77EE30036A13C658C2F8 /* Pods_githubmappping.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3E8CEB8870649B1541C040B /* Pods_githubmappping.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		7E1220B1258D04A300DC23B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7E1220B3258D04A300DC23B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7E1220B9258D055100DC23B3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		7E720BC025B0C69D00C487B5 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A3E8CEB8870649B1541C040B /* Pods_githubmappping.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_githubmappping.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A74268ACA55564448304D027 /* Pods-githubmappping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubmappping.release.xcconfig"; path = "Target Support Files/Pods-githubmappping/Pods-githubmappping.release.xcconfig"; sourceTree = "<group>"; };
 		FF9BE62FE0D9164B3E52F3F4 /* Pods-githubmappping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-githubmappping.debug.xcconfig"; path = "Target Support Files/Pods-githubmappping/Pods-githubmappping.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +84,7 @@
 		7E1220A4258D04A000DC23B3 /* githubmappping */ = {
 			isa = PBXGroup;
 			children = (
+				7E720BC025B0C69D00C487B5 /* DetailViewController.swift */,
 				7E1220A5258D04A100DC23B3 /* AppDelegate.swift */,
 				7E1220A7258D04A100DC23B3 /* SceneDelegate.swift */,
 				7E1220A9258D04A100DC23B3 /* ViewController.swift */,
@@ -181,7 +184,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
-			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${SRCROOT}/FirebaseCrashlytics/run\"\n";
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"${PODS_ROOT}/FirebaseCrashlytics/run\"\n";
 		};
 		964E7FB50FF471E97449C1AD /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -232,6 +235,7 @@
 				7E1220AA258D04A100DC23B3 /* ViewController.swift in Sources */,
 				7E1220A6258D04A100DC23B3 /* AppDelegate.swift in Sources */,
 				7E1220A8258D04A100DC23B3 /* SceneDelegate.swift in Sources */,
+				7E720BC125B0C69D00C487B5 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
